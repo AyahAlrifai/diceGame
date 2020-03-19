@@ -1,0 +1,161 @@
+body {
+  background-image: url("bg.jpeg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+#win{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15%;
+  position:absolute;
+  color: #F57E07;
+  font-size: 40px;
+  z-index: 1;
+  background-color: #cccccc;
+  border-color: #F57E07;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 40px;
+  text-align:center;
+}
+#p1 {
+  margin-left: 10%;
+  margin-top: 1%;
+  position:relative;
+  width: 40%;
+  background-color: #cccccc;
+  height:600px;
+  float: left;
+  opacity: 0.95;
+
+}
+#p2 {
+  margin-right: 10%;
+  margin-top: 1%;
+  position:relative;
+  width: 40%;
+  background-color: #ffffff;
+  height:600px;
+  float: right;
+  opacity: 0.95;
+
+}
+.newGameOut {
+  position:absolute;
+  top: 5%;
+  right: 7%;
+  z-index: 1;
+  font-size: 30px;
+  color: #777777;
+}
+.newGameOver {
+  color: #000000;
+  position:absolute;
+  top: 5%;
+  right: 4%;
+  z-index: 1;
+  font-size: 40px;
+}
+.playerInfo {
+  font-size: 50px;
+  position:absolute;
+  top: 12%;
+  right: 21%;
+  color: #777777
+
+}
+.actevated {
+  position:absolute;
+  top: 12%;
+  right: 18%;
+}
+
+.result {
+  font-size: 100px;
+  position:absolute;
+  top: 22%;
+  right: 40%;
+}
+.dice1 {
+  position:absolute;
+  top: 30%;
+  right: 14%;
+  z-index: 1;
+}
+.dice2 {
+  position:absolute;
+  top: 50%;
+  right: 14%;
+  z-index: 1;
+}
+.current {
+  padding-top: 30px;
+  font-size: 50px;
+  text-align:center;
+  position:absolute;
+  top: 49%;
+  right: 35%;
+  background-color: #3AEF8F;
+  width: 25%;
+  height: 16%;
+  border-radius:16%;
+}
+.rollOut {
+  position:absolute;
+  top: 70%;
+  right: 43%;
+  z-index: 1;
+  font-size: 20px;
+  background-color: #3AEF8F;
+  width: 15%;
+  text-align:center
+}
+
+.holdOut {
+  position:absolute;
+  top: 78%;
+  right: 43%;
+  z-index: 1;
+  font-size: 20px;
+  background-color: #3AEF8F;
+  width: 15%;
+  text-align:center
+}
+
+.rollOver {
+  position:absolute;
+  top: 68%;
+  right: 41%;
+  z-index: 1;
+  font-size: 40px;
+  background-color: #3AEF8F;
+  width: 20%;
+  text-align:center
+}
+
+.holdOver {
+  position:absolute;
+  top: 78%;
+  right: 41%;
+  z-index: 1;
+  font-size: 40px;
+  background-color: #3AEF8F;
+  width: 20%;
+  text-align:center
+}
+
+#max {
+  position:absolute;
+  top: 88%;
+  right: 43%;
+  z-index: 1;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  width: 15%;
+  text-align:center;
+  border-color: #3AEF8F;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  color: #aaaaaa;
+}

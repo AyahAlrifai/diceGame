@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>dice game</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="shortcut icon" type="icon" href="d2.png" />
+    <script type="text/javascript" src="game.js">
+    </script>
+  </head>
+  <body>
+    <div id="win">
+    </div>
+      <div class="newGameOut" id="newGame">
+        <img src="replay.png" alt="" width="5%" height="5%"> NEW GAME
+      </div>
+      <div class="dice1" >
+        <img id="dice1" src="1.png" alt="" width="18%" height="18%">
+      </div>
+      <div class="dice2" >
+        <img id="dice2" src="2.png" alt="" width="18%" height="18%">
+      </div>
+      <div class="rollOut" id="roll">
+        <img src="d4.png" alt="" width="15%" height="15%">ROLL DICE
+      </div>
+      <div class="holdOut" id="hold">
+        <img src="check.png" alt="" width="15%" height="15%">HOLD
+      </div>
+      <input type="text" name="max" value="max value" id="max">
+      <div id="p1">
+        <div class="playerInfo">
+          PLAYER 1
+        </div>
+        <img id="r1" src="record.png" alt="" class="actevated" width="2%" height="2%">
+        <div class="result" id="result1">
+          0
+        </div>
+        <div class="current" id="current1">
+        </div>
+      </div>
+      <div id="p2">
+        <div class="playerInfo">
+          PLAYER 2
+        </div>
+        <img id="r2" src="record.png" alt="" class="actevated" width="2%" height="2%">
+        <div class="result" id="result2">
+          0
+        </div>
+      <div class="current" id="current2">
+      </div>
+      </div>
+  </body>
+</html>
